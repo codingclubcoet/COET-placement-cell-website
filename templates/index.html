@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+  Hi {{ user.username }} , Welcome to COET placement cell account.
+
+  <p align="center"><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+	<p align="center" size="30">Welcome to COET placement cell website</p><br/>
+  <p align="center">You are not logged in
+  Kindly <a href="{% url 'login' %}">Log In</a></p>
+{% endif %}
+{% endblock %}
