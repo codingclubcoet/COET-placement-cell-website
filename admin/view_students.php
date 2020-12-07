@@ -44,7 +44,7 @@ tr:nth-child(even) {background-color: #f2f2f2}
 <th>       Email</th>
 </tr>
 <?php
-$conn = mysqli_connect("localhost", "fasal", "fasal123", "placement");
+$conn = mysqli_connect("localhost", "", "", "placement");
 if ($conn->connect_error) {
 die("Connection failed: " . $conn->connect_error);
 }
