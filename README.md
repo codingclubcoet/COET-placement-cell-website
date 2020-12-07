@@ -1,21 +1,10 @@
-# COET-placement-cell-website
+# COET placement cell website
 Website of placement cell.
 
 
-## How to run
+There will be a lot of bugs yu may find in this website.
 
-```
-python3 manage.py migrate
-python3 manage.py runserver
-```
+If you want to fix it, fix it.
 
-## Creating super user
 
-```
-python3 manage.py createsuperuser
-```
-
-## Contribution guidelines
-
-- [x] Don't spam
-- [x] for features to be added visit <a href="https://github.com/codingclubcoet/COET-placement-cell-website/projects/1">here</a>
+:rocket:
